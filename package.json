@@ -1,0 +1,17 @@
+{
+  "name": "rockpaperscissors",
+  "version": "1.0.0",
+  "description": "rock paper scissors game",
+  "main": "rockpaperscissors2.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "author": "ben",
+  "license": "ISC",
+  "devDependencies": {
+    "jest": "^24.8.0"
+  },
+  "dependencies": {
+    "node": "^12.7.0"
+  }
+}
