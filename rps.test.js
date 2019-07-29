@@ -25,4 +25,12 @@ describe('test functionality of rock paper scissors game play', () => {
         //Assert
         expect(gameState).toBe(true);
     })
+    test('computer play function generates rock, paper, scissor selection', () => {
+        //Arrange
+        const cPlay = computerPlay;
+        //Act
+        const cMove = ['rock', 'paper', 'scissors'];
+        //Assert
+        expect(cPlay).toContain(cMove);
+    })
 })
